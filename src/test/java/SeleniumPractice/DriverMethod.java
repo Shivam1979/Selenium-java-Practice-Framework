@@ -15,7 +15,7 @@ public class DriverMethod {
        driver.manage().window().fullscreen();
 
        String url = driver.getCurrentUrl();
-       System.out.println(url);
+       System.out.println(url); // commit
    }
 }
 
