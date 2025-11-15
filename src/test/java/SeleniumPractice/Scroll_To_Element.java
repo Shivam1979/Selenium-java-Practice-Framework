@@ -13,14 +13,14 @@ public class Scroll_To_Element {
     public static void main(String arg[]) throws InterruptedException {
         WebDriverManager.edgedriver().setup();
         driver = new EdgeDriver();
-        driver.get("https://www.jio.com");
+        driver.get("https://demoqa.com");
         Thread.sleep(5000);
         driver.manage().window().maximize();
         String url = driver.getCurrentUrl();
         System.out.println(url); // commit
         Thread.sleep(5000);
         WebElement cardElments = driver.findElement(By.xpath("(//div[@class = 'card-body'])[1]"));
-        ( (JavascriptExecutor) driver ).executeScript("arguments[0].scrollIntoView(true);",cardElments);
+        ((JavascriptExecutor) driver ).executeScript("arguments[0].scrollIntoView(true);",cardElments);
         Thread.sleep(2000);
         cardElments.click();
         Thread.sleep(2000);
@@ -32,15 +32,6 @@ public class Scroll_To_Element {
         fullName.sendKeys("Tanu Jha");
         WebElement email = driver.findElement(By.id("userEmail"));
         email.click();
-        //added above code in GIT
+        // done
     }
 }
-
-
-
-
-
-
-
-
-
