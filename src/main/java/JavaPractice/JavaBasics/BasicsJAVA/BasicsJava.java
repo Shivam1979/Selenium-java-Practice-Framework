@@ -1,4 +1,4 @@
-package JavaPractice.JavaBasics;
+package JavaPractice.JavaBasics.BasicsJAVA;
 //Java Basics → Data types, loops, conditions, methods
 //1. byte    -> 1 byte    -> Range: -128 to 127
 //        2. short   -> 2 bytes   -> Range: -32,768 to 32,767
