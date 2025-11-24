@@ -1,0 +1,46 @@
+1️⃣ Reverse String — Interview Style
+Write a method reverseString(String input)
+Return the reversed string without using StringBuilder.reverse().
+
+
+2️⃣ Compare Two Strings
+Write a method isEqual(String s1, String s2)
+Return true if both strings are same (case-sensitive).
+Another version: compare ignoring case.
+
+
+3️⃣ Find Substring
+Write a method getSubstring(String str, int start, int end)
+Return substring between given indexes.
+Test with: "AutomationTesting"
+
+
+4️⃣ Count Words in a String
+Given: "Selenium automation with Java"
+Write a method to count number of words.
+
+
+5️⃣ Check Palindrome String
+Write a method isPalindrome(String str)
+Return true if string reads same backward & forward.
+(Interview favorite)
+
+
+6️⃣ Count Occurrence of a Character
+Input: "automation" and 'a'
+Count how many times 'a' appears.
+
+
+7️⃣ Remove Spaces From String
+Given "Selenium Testing"
+Remove all spaces → "SeleniumTesting".
+
+
+8️⃣ Print Only Unique Characters
+Input: "programming"
+Output characters that appear once.
+
+
+9️⃣ Find Duplicate Characters
+Input: "testautomation"
+Print all duplicate letters.

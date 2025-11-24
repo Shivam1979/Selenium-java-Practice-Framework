@@ -14,8 +14,9 @@ import java.util.Scanner;
 
 public class FindDuplicateCharacters {
 
-    String DuplicateChar(String input) {
+     static String  DuplicateChar(String input) {
         int[] freq = new int[256];
+        String ans ="";
 
 // Count frequency of each character
         for (int i = 0; i < input.length(); i++) {
@@ -24,20 +25,23 @@ public class FindDuplicateCharacters {
         for (int i = 0; i < input.length(); i++) {
             char ch = input.charAt(i);
             if (freq[ch] > 1) {
-                System.out.println(ch + " ");
+                ans += ch;
                 freq[ch] = 0;
             }
 
         }
-        return "";
+         return ans;
+
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter a word..");
         String str = sc.nextLine();
-        FindDuplicateCharacters fd = new FindDuplicateCharacters();
-        String result = fd.DuplicateChar(str);
-        System.out.println(result);
+        /*FindDuplicateCharacters fd = new FindDuplicateCharacters();
+      fd.DuplicateChar(str);
+        System.out.println();*/
+        System.out.println(DuplicateChar(str));
+
     }
 }
