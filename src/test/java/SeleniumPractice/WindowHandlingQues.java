@@ -18,8 +18,7 @@ public class WindowHandlingQues {
         Thread.sleep(5000);
        WebElement NewTabBtn = driver.findElement(By.xpath("//button[@id='tabButton']"));
        NewTabBtn.click();
-      WebElement NewTabText = driver.findElement(By.id("sampleHeading"));
-        System.out.println(NewTabText.getText());
+      
 
     }
 }
